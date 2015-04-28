@@ -1,0 +1,64 @@
+html {/*
+	 background: url("image/flamingo.gif") repeat center center fixed;*/
+}
+
+p {
+	position: relative;
+}
+.eng-txt {
+	color:#000000;
+	font-family:"NTR", sans-serif;
+	font-size:24px;
+	line-height:1.2;
+	text-align: center;
+	position: relative;
+}
+
+.bigName, .bodBig {
+	font-family:"UnifrakturCook", serif;
+	position: relative;
+
+}
+
+.bigName {
+	font-size: 66px;
+	color: yellow;
+	text-shadow: 5px 5px magenta;
+	position: relative;
+}
+
+.bigItName {
+	font-size: 50px;
+}
+
+.bigItName, .itMedText, .bodIt {
+	font-style: italic;
+	position: relative;
+}
+
+.medText, .itMedText {
+	font-size: 48px;
+	position: relative;
+
+}
+
+.footnote {
+	font-size: 18px;
+	color: cyan;
+	position: relative;
+
+}
+
+a {
+	font-family: "UnifrakturCook", serif;
+	font-size: 50px;
+	color: magenta;
+	text-shadow: 5px 5px cyan;
+	text-decoration: none;
+	position: relative;
+
+}
+
+a:hover {
+	color: yellow;
+}

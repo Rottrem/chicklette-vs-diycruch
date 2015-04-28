@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Chicklette : 25.05.15</title>
+		<link href="chicklettetext.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700|NTR' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+			var main= function() {
+				$('p').mouseenter(function () {
+					$(this).animate({
+						size: "80px"
+					});
+				});
+				$('p').mouseleave(function () {
+					$(this).animate({
+						size: "25px"
+					});
+				});
+			}
+			$(document).ready(main);
+		</script>
+
+		<script>
+			(function titleScroller(text) {
+			    document.title = text;
+			    setTimeout(function () {
+			        titleScroller(text.substr(1) + text.substr(0, 1));
+			    }, 500);
+			}("Chicklette  vs  DIY Cruch  vs  "));
+		</script>
+
+	</head>
+	<body>
+		<div class="eng-txt">
+			<div id="main">
+				<p class="bigName">DIY CHURCH</p>
+				<p class="medText">cordially invites you to</p>
+				<p class="itMedText">an evening with</p>
+				<p class="bigName">CHICKLETTE</p>
+				<p class="medText">(New York, NY),</p>
+				<p class="medText">who has previously visited</p>
+				<p class="medText">Berlin as one-half of</p>
+				<p class="bigItName">ANGELS IN AMERICA</p>
+			</div>
+			<div id="bod">
+				<p><span class="bodBig">Chicklette</span> will perform between 19-21h CET at <span class="bodIt">Del Rex*</span>.</p>
+				<p>The performance will be broadcasted live from 10am-12pm PST<br>
+				and streamed online at 1-3pm EST on 25 May 2015.</p>
+			</div>
+			<div id="link">
+				<p><span class="bodIt">For more information,</span> visit</p>
+				<p><a href="http://diychurch.org">diychurch.org</a></p>
+			</div>
+			<div id="puddle">
+				<p>Post-performance background music shall be provided by DJ Puddle.</p>
+			</div>
+			<div id="foot">
+				<p class="footnote">*Ringbahnstraße 29</p>
+			</div>
+		</div>
+
+	</body>
+</html>
